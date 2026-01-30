@@ -104,27 +104,6 @@ Then visit `http://localhost:8000` (or the port shown) in your browser.
 - **AI**: Google Gemini API
 - **Other**: python-dotenv
 
-## Troubleshooting
-
-### "GEMINI_API_KEY not found" error
-- Make sure your `.env` file exists in the backend directory
-- Verify it has the correct `GEMINI_API_KEY` value
-- Restart the Flask server after updating `.env`
-
-### CORS errors
-- The backend has CORS enabled for development
-- Make sure the backend is running on port 5000
-- Check that the `API_URL` in `index.html` matches your backend URL
-
-### Virtual environment issues
-- Make sure to activate the virtual environment before running the server
-- Use `which python` or `where python` to verify which Python is being used
-
-### No response from chatbot
-- Check your internet connection
-- Verify your API key validity on Google AI Studio
-- Check the browser console (F12) and terminal for error messages
-
 ## Future Enhancements
 
 - [ ] Add user authentication
